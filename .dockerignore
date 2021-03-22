@@ -14,5 +14,11 @@ temp.png
 venv/
 __pycache__/
 # tgbot
+<<<<<<< HEAD
+=======
+config.py
+*.session
+*.session-journal
+>>>>>>> 5a50ddc (Heroku Support (#31))
 input.raw
 group_call.log
