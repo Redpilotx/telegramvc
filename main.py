@@ -4,12 +4,9 @@ import asyncio
 import subprocess
 import youtube_dl
 from Python_ARQ import ARQ
-<<<<<<< HEAD
 from pytgcalls import GroupCall
 from sys import version as pyver
 from pyrogram import Client, filters
-=======
->>>>>>> 5a50ddc (Heroku Support (#31))
 from misc import HELP_TEXT, START_TEXT, REPO_TEXT
 from functions import (
     transcode,
@@ -19,10 +16,7 @@ from functions import (
     generate_cover,
     generate_cover_square,
 )
-
-<<<<<<< HEAD
 from config import API_ID, API_HASH, SUDO_CHAT_ID, SUDOERS, ARQ_API
-=======
 # TODO Make it look less messed up
 is_config = os.path.exists("config.py")
 
@@ -45,21 +39,16 @@ if HEROKU:
     elif not is_config:
         from sample_config import SESSION_STRING
 
->>>>>>> 5a50ddc (Heroku Support (#31))
-
 queue = []  # This is where the whole song queue is stored
 playing = False  # Tells if something is playing or not
 
 
 # Pyrogram Client
-<<<<<<< HEAD
 app = Client("tgvc", api_id=API_ID, api_hash=API_HASH)
-=======
 if not HEROKU:
     app = Client("tgvc", api_id=api_id, api_hash=api_hash)
 else:
     app = Client(SESSION_STRING, api_id=api_id, api_hash=api_hash)
->>>>>>> 5a50ddc (Heroku Support (#31))
 
 # Pytgcalls Client
 vc = GroupCall(
