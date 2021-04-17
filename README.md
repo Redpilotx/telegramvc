@@ -2,7 +2,6 @@
 
 Telegram Voice-Chat Bot To Play Music With Pytgcalls From Various Sources In Your Group.
 
-<img src="https://hamker.me/wl9twld.png" width="600" height="400">
 
 
 # Support
@@ -19,10 +18,7 @@ Telegram Voice-Chat Bot To Play Music With Pytgcalls From Various Sources In You
 
 ## Run
 
-<<<<<<< HEAD
-=======
 Follow this if you are not running on heroku
->>>>>>> 5a50ddc (Heroku Support (#31))
 
 ```sh
 $ git clone https://github.com/thehamkercat/Telegram_VC_Bot
